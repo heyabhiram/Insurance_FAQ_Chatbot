@@ -109,7 +109,7 @@ export default function HomePage() {
 
           <Link
             href="/chat"
-            className="inline-flex items-center justify-center rounded-md bg-blue-600 px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-blue-700"
+            className="inline-flex items-center justify-center rounded-md bg-emerald-600 px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-emerald-700 shadow-xs"
           >
             Chat with Us
           </Link>
@@ -120,7 +120,7 @@ export default function HomePage() {
         {/* Hero Section */}
         <section className="bg-white border-b border-slate-200 py-20 px-6">
           <div className="max-w-4xl mx-auto text-center">
-            <span className="inline-block px-3 py-1 text-xs font-semibold uppercase tracking-wider text-blue-700 bg-blue-50 border border-blue-200 rounded-full mb-6">
+            <span className="inline-block px-3 py-1 text-xs font-semibold uppercase tracking-wider text-emerald-800 bg-emerald-50 border border-emerald-200 rounded-full mb-6">
               Dependable Motor Protection
             </span>
             <h1 className="text-4xl sm:text-5xl font-extrabold text-slate-950 tracking-tight leading-tight mb-6">
@@ -132,7 +132,7 @@ export default function HomePage() {
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link
                 href="/chat"
-                className="w-full sm:w-auto inline-flex items-center justify-center rounded-md bg-blue-600 px-6 py-3 text-base font-semibold text-white transition-colors hover:bg-blue-700 shadow-sm"
+                className="w-full sm:w-auto inline-flex items-center justify-center rounded-md bg-emerald-600 px-6 py-3 text-base font-semibold text-white transition-colors hover:bg-emerald-700 shadow-sm"
               >
                 Chat with Us
               </Link>
@@ -196,7 +196,7 @@ export default function HomePage() {
                     </p>
                     {plan.features.map((feature) => (
                       <div key={feature} className="flex items-start text-sm text-slate-700">
-                        <span className="mr-2.5 text-blue-600 font-bold">•</span>
+                        <span className="mr-2.5 text-emerald-600 font-bold">•</span>
                         <span>{feature}</span>
                       </div>
                     ))}
@@ -263,7 +263,7 @@ export default function HomePage() {
                 key={step.step}
                 className="bg-white border border-slate-200 rounded-lg p-8 relative"
               >
-                <span className="text-3xl font-extrabold text-blue-600 mb-4 block">
+                <span className="text-3xl font-extrabold text-emerald-600 mb-4 block">
                   {step.step}
                 </span>
                 <h3 className="text-lg font-bold text-slate-900 mb-2">
@@ -288,7 +288,7 @@ export default function HomePage() {
             </p>
             <Link
               href="/chat"
-              className="inline-flex items-center justify-center rounded-md bg-blue-600 px-6 py-3 text-base font-semibold text-white transition-colors hover:bg-blue-500 shadow-sm"
+              className="inline-flex items-center justify-center rounded-md bg-emerald-600 px-6 py-3 text-base font-semibold text-white transition-colors hover:bg-emerald-500 shadow-sm"
             >
               Chat with Us Now
             </Link>
