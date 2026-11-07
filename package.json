@@ -9,13 +9,9 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "mermaid": "^11.17.2",
     "next": "16.4.4",
     "react": "19.3.0",
-    "react-dom": "19.3.0",
-    "react-markdown": "^10.1.0",
-    "react-markdown-mermaid": "^0.0.3",
-    "react-x-mermaid": "^1.0.1"
+    "react-dom": "19.3.0"
   },
   "devDependencies": {
     "@tailwindcss/turbopack": "^4",
